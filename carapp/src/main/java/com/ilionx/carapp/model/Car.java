@@ -8,12 +8,16 @@ import javax.persistence.Id;
 
 @Entity
 public class Car {
-    private String licensePlate;
-    private int mileage;
-    private String brand;
+
+    //Meestal id bovenin. Prima ook zoals het was. 't Is maar een tip.
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private long id;
+
+    private String licensePlate;
+    private int mileage;
+    private String brand;
+
 
 
     public String getLicensePlate() {

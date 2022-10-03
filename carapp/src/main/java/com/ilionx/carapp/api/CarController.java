@@ -31,8 +31,6 @@ public class CarController {
     public ResponseEntity<Car> create(@RequestBody Car car) {
         return ResponseEntity.ok(this.carService.save(car));
     }
-
-
     @GetMapping("brand/{brand}")
     public ResponseEntity<List<Car>> findByBrand(@PathVariable("brand") String merk) {
         return ResponseEntity.ok(this.carService.findByBrand(merk));
