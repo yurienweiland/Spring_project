@@ -1,4 +1,4 @@
-package com.ilionx.carapp.api;
+package com.ilionx.carapp.model;
 
 
 public class Coureur {

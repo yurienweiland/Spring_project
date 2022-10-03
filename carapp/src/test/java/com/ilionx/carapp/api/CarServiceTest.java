@@ -1,7 +1,8 @@
 package com.ilionx.carapp.api;
 
-import com.ilionx.carapp.api.Car;
-import com.ilionx.carapp.api.CarRepository;
+import com.ilionx.carapp.model.Car;
+import com.ilionx.carapp.persistence.CarRepository;
+import com.ilionx.carapp.service.CarService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

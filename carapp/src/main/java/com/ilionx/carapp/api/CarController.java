@@ -1,5 +1,8 @@
 package com.ilionx.carapp.api;
 
+import com.ilionx.carapp.model.Car;
+import com.ilionx.carapp.persistence.CarRepository;
+import com.ilionx.carapp.service.CarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

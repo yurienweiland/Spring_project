@@ -1,7 +1,7 @@
-package com.ilionx.carapp.api;
+package com.ilionx.carapp.config;
 
 
-import com.ilionx.carapp.api.Coureur;
+import com.ilionx.carapp.model.Coureur;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
