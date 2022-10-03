@@ -1,5 +1,6 @@
 package com.ilionx.carapp.api;
 
+import com.ilionx.carapp.model.Car;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

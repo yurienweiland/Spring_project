@@ -1,5 +1,7 @@
-package com.ilionx.carapp.api;
+package com.ilionx.carapp.service;
 
+import com.ilionx.carapp.model.Car;
+import com.ilionx.carapp.persistence.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Example;
